@@ -8,7 +8,7 @@ You must use JavaScript to complete the challenges. You can use any version of N
 
 ## Code Style 
 
-Please follow the StandardJS code style. You can find more information about it [here](https://standardjs.com/).
+Please follow the Semi-Standard code style. You can find more information about it [here](https://github.com/standard/semistandard).
 
 ## Submission
 
