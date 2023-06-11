@@ -1,6 +1,6 @@
 # Using C++ functions in Node.js
 
-In this challenge you're create a nodejs addon that will expose a C++ function to JavaScript. This is the C++ code in question:
+In this challenge you've to create a nodejs addon that will expose a C++ function for use in Node. This is the C++ code in question:
 
 ```cpp
 #include <iostream>
