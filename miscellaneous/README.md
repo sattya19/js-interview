@@ -7,11 +7,17 @@ async function generateRule (proto, sourceIps, sourcePorts, destIps, destPorts, 
 ```
 
 proto -> can be 'all', 'icmp' or 'tcp' or 'udp' or it may also be 'tcp,udp' separated by comma
+
 sourceIps -> is a string of ip's separated by a comma can be both ipv4 and ipv6
+
 sourcePorts -> can be port number separated by a space character or a range of ports like 0-65535 or it can be a combination of both like 0-65535 80 443 (will be none in the case of icmp/all proto)
+
 destIps -> is a string of ip's separated by a comma can be both ipv4 and ipv6
+
 destPorts -> can be port number separated by a space character or a range of ports like 0-65535 or it can be a combination of both like 0-65535 80 443 (will be none in the case of icmp/all proto)
+
 fwMark -> is a hexadeciaml number
+
 lanZoneIfaces -> is an array of interface names like ["br-lan", "br-guest"]
 
 In the end we want to return a string like this:
